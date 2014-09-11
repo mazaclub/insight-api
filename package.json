@@ -1,12 +1,12 @@
 {
-  "name": "insight-bitcore-api",
-  "description": "An open-source bitcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
-  "version": "0.2.10",
+  "name": "insight-mazacore-api",
+  "description": "An open-source mazacoin blockchain API forked from bitcore. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the mazacoin network and build your own services with it.",
+  "version": "0.1.0",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/kefkius/insight-api.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -27,21 +27,27 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "Mazacoin Developers",
+      "email": "contact@mazacoin.org"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/kefkius/insight-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/kefkius/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "bitcoin api",
+    "mazachain",
+    "mazacoin api",
     "blockchain api",
+    "mazachain api",
     "json",
-    "bitcore"
+    "mazacore"
   ],
   "engines": {
     "node": "*"
@@ -54,7 +60,6 @@
     "async": "*",
     "base58-native": "0.1.2",
     "bignum": "*",
-    "bitcore": "git://github.com/bitpay/bitcore.git#aa41c70cff2583d810664c073a324376c39c8b36",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
@@ -63,6 +68,7 @@
     "glob": "*",
     "leveldown": "~0.10.0",
     "levelup": "~0.19.0",
+    "mazacore": "git://github.com/Kefkius/mazacore.git",
     "moment": "~2.5.0",
     "preconditions": "^1.0.7",
     "should": "~2.1.1",
