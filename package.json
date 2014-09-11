@@ -1,12 +1,12 @@
 {
   "name": "insight-mazacore-api",
-  "description": "An open-source mazacoin blockchain API forked from bitcore. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the mazacoin network and build your own services with it.",
+  "description": "An open-source mazacoin blockchain API forked from bitpay's insight bitcore api. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the mazacoin network and build your own services with it.",
   "version": "0.1.0",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/kefkius/insight-api.git",
+  "repository": "git://github.com/Kefkius/insight-api.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -29,14 +29,14 @@
       "email": "bechilandia@gmail.com"
     },
     {
-      "name": "Mazacoin Developers",
-      "email": "contact@mazacoin.org"
+      "name": "Tyler Willis",
+      "email": "kefkius@mazacoin.org"
     }
   ],
   "bugs": {
-    "url": "https://github.com/kefkius/insight-api/issues"
+    "url": "https://github.com/ShastaFarEye/insight-api/issues"
   },
-  "homepage": "https://github.com/kefkius/insight-api",
+  "homepage": "https://github.com/ShastaFarEye/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
