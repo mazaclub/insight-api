@@ -6,7 +6,7 @@
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/Kefkius/insight-api.git",
+  "repository": "git://github.com/ShastaFarEye/insight-api.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Tyler Willis",
-      "email": "kefkius@mazacoin.org"
+      "email": "kefkius@mail.com"
     }
   ],
   "bugs": {
@@ -68,7 +68,7 @@
     "glob": "*",
     "leveldown": "~0.10.0",
     "levelup": "~0.19.0",
-    "mazacore": "git://github.com/Kefkius/mazacore.git",
+    "mazacore": "git://github.com/mazacoin/mazacore.git",
     "moment": "~2.5.0",
     "preconditions": "^1.0.7",
     "should": "~2.1.1",
