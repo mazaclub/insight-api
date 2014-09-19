@@ -1,4 +1,4 @@
-require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"bitcore":[function(require,module,exports){
+require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"mazacore":[function(require,module,exports){
 module.exports=require('tmvhGl');
 },{}],"tmvhGl":[function(require,module,exports){
 (function (Buffer){
@@ -21,14 +21,14 @@ var requireWhenAccessed = function(name, file) {
 requireWhenAccessed('Bignum', 'bignum');
 Object.defineProperty(module.exports, 'bignum', {
   get: function() {
-    console.log('bignum (with a lower-case "b") is deprecated. Use bitcore.Bignum (capital "B") instead.');
+    console.log('bignum (with a lower-case "b") is deprecated. Use mazacore.Bignum (capital "B") instead.');
     return require('bignum');
   }
 });
 requireWhenAccessed('Base58', './lib/Base58');
 Object.defineProperty(module.exports, 'base58', {
   get: function() {
-    console.log('base58 (with a lower-case "b") is deprecated. Use bitcore.Base58 (capital "B") instead.');
+    console.log('base58 (with a lower-case "b") is deprecated. Use mazacore.Base58 (capital "B") instead.');
     return require('./lib/Base58');
   }
 });
@@ -52,7 +52,7 @@ requireWhenAccessed('AuthMessage', './lib/AuthMessage');
 requireWhenAccessed('HierarchicalKey', './lib/HierarchicalKey');
 Object.defineProperty(module.exports, 'BIP32', {
   get: function() {
-    console.log('BIP32 is deprecated. Use bitcore.HierarchicalKey instead.');
+    console.log('BIP32 is deprecated. Use mazacore.HierarchicalKey instead.');
     return require('./lib/HierarchicalKey');
   }
 });
